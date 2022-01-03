@@ -46,7 +46,7 @@ function App() {
                 <input onChange={(el) => setTextField(el.target.value)} onKeyDown={e => enter(e)}></input>
                 <button key="gallery-button" onClick={(e) => submitting(e)}> click me</button>
             </div>
-              <>  {textField}</>
+              {/* <>  {textField}</> */}
             <div className="card-gallery" style={{"border": "2px solid red", "minHeight": "1.3em"}}>
                 {cardResults.map((el) => {
                     return(
